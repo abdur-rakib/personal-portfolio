@@ -145,6 +145,10 @@ p {
     background-size: cover;
 }
 
+.biography.content {
+    margin-bottom: -10rem;
+}
+
 /* //////////////////////////////////////// */
             /* Skill SECTION */
 /* /////////////////////////////////////// */

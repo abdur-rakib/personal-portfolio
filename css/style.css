@@ -4,6 +4,7 @@
     --color-primary: rgb(224, 48, 98);
     --color-primary-light: #EC5298;
     --color-grey: rgb(53, 52, 52);
+    --color-grey-light: rgba(53, 52, 52, 0.4);
     --color-white: #ffffff;
 }
 
@@ -78,11 +79,19 @@ body {
     background-image: linear-gradient(45deg, var(--color-primary-light), var(--color-primary));
     -webkit-background-clip: text;
     color: transparent;
+
+    transition: all .3s;
+}
+
+.heading-secondary:hover {
+    transform: scale(1.1);
+    text-shadow: .5rem 1rem 2rem var(--color-grey-light);
+    
 }
 
 p {
     color: var(--color-grey);
-    margin-bottom: 2rem;
+    margin: 3rem 0;
 }
 
 .link-button:link,
@@ -106,4 +115,14 @@ p {
     transform: translateY(-1px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
 
+}
+
+
+/* //////////////////////////////////////// */
+            /* BIOGRAPHY SECTION */
+/* /////////////////////////////////////// */
+
+.biography {
+    background-image: url("../images/biography-bg.png");
+    background-size: cover;
 }

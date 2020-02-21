@@ -20,13 +20,18 @@
     box-sizing: inherit;
 }
 
+::selection {
+    background-color: var(--color-primary-light);
+    color: var(--color-white);
+}
+
 html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Maven Pro', sans-serif;
     font-weight: 400;
     line-height: 1.6;
     font-size: 1.6rem;
@@ -80,7 +85,7 @@ body {
     -webkit-background-clip: text;
     color: transparent;
 
-    transition: all .3s;
+    transition: all .2s;
 }
 
 .heading-secondary:hover {
@@ -125,4 +130,22 @@ p {
 .biography {
     background-image: url("../images/biography-bg.png");
     background-size: cover;
+}
+
+/* //////////////////////////////////////// */
+            /* Latest Work SECTION */
+/* /////////////////////////////////////// */
+
+.latest-work {
+    background-image: url("../images/latest-work-bg.png");
+    background-size: cover;
+    margin: 10rem 0;
+}
+.one-third-width img{
+    width: 80%;
+}
+
+.latest-work .heading-primary {
+    text-align: center;
+    margin-bottom: 6rem;
 }

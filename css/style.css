@@ -86,7 +86,6 @@ body {
 
 .heading-secondary {
     font-size: 5rem;
-    /* color: var(--color-primary); */
 
     display: inline-block;
     background-image: linear-gradient(45deg, var(--color-primary-light), var(--color-primary));
@@ -95,6 +94,8 @@ body {
 
     transition: all .2s;
 }
+
+
 
 .heading-secondary:hover {
     transform: scale(1.1);
@@ -350,4 +351,15 @@ footer {
 .name {
     color: var(--color-primary-light);
     text-decoration: none;
+    display: inline-block;
+
+    transition: all .2s;
+}
+.name:hover {
+    box-shadow: 0 1rem 2rem var(--color-grey);
+    transform: rotate(5deg) scale(1.1);
+    padding: 0 1rem;
+    background-image: linear-gradient(45deg, var(--color-primary-light), var(--color-primary));
+    color: var(--color-white);
+    border-radius: 2px;
 }

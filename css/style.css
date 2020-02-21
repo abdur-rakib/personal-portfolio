@@ -58,9 +58,13 @@ body {
 .content {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    /* align-items: center; */
 
     padding: 0 5rem;
+}
+
+.header.content {
+    align-items: center;
 }
 
 .half-width {

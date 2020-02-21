@@ -74,6 +74,10 @@ body {
 
 .heading-primary {
     font-size: 3.5rem;
+
+    border-bottom: 3px solid var(--color-primary-light);
+    display: inline-block;
+    
 }
 
 .heading-secondary {
@@ -140,12 +144,22 @@ p {
     background-image: url("../images/latest-work-bg.png");
     background-size: cover;
     margin: 10rem 0;
+
+    text-align: center;
 }
 .one-third-width img{
-    width: 80%;
+    width: 90%;
+
+    transition: all .2s;
+}
+
+.one-third-width img:hover {
+    transform: scale(1.1) translateY(-1rem);
+    box-shadow: 0 2rem 4rem var(--color-grey-light);
 }
 
 .latest-work .heading-primary {
     text-align: center;
     margin-bottom: 6rem;
+    
 }

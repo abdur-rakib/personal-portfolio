@@ -58,17 +58,17 @@ body {
 .content {
     display: flex;
     justify-content: space-around;
-
+    align-items: center;
 
     padding: 0 5rem;
 }
 
 .half-width {
     width: 50%;
-    margin: 10rem 0;
+    margin: 6rem 0;
 }
 .half-width img {
-    width: 100%;
+    width: 130%;
 }
 
 .text-box {
@@ -331,6 +331,7 @@ p {
     color: var(--color-white);
     border-radius: 1rem;
     padding: 0 0 3rem 0;
+    width: 100%;
 }
 
 .client-message p {

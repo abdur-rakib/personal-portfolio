@@ -4,8 +4,11 @@
     --color-primary: rgb(224, 48, 98);
     --color-primary-light: #EC5298;
     --color-grey: rgb(53, 52, 52);
+    --color-grey-dark: rgb(0, 0, 0);
+
     --color-grey-light: rgba(53, 52, 52, 0.4);
     --color-white: #ffffff;
+    --color-dark-light: rgba(0, 0, 0, 0.705);
 }
 
 
@@ -55,6 +58,7 @@ body {
 .content {
     display: flex;
     justify-content: space-around;
+
 
     padding: 0 5rem;
 }
@@ -143,6 +147,7 @@ p {
 .latest-work {
     background-image: url("../images/latest-work-bg.png");
     background-size: cover;
+    
     margin: 10rem 0;
 
     text-align: center;
@@ -162,4 +167,53 @@ p {
     text-align: center;
     margin-bottom: 6rem;
     
+}
+
+/* //////////////////////////////////////// */
+            /* Client SECTION */
+/* /////////////////////////////////////// */
+
+.client {
+    background-image: url("../images/footer-bg.png");
+    background-size: cover;
+
+    text-align: center;
+    margin: 10rem 0;
+
+}
+
+.client .content {
+    margin: 6rem auto;
+    flex-direction: column;
+    width: 50%;
+}
+
+.client-about h2 {
+    margin-bottom: -2rem;
+}
+
+.client-speech {
+    font-size: 1.6rem;
+    color: var(--color-dark-light);
+}
+.client-message {
+    background-image: linear-gradient(45deg, var(--color-primary-light), var(--color-primary));
+    margin: 5rem 0;
+    color: var(--color-white);
+    border-radius: 1rem;
+    padding: 0 0 3rem 0;
+}
+
+.client-message p {
+    color: var(--color-white);
+    margin-bottom: .7rem;
+    font-size: 1.4rem;
+}
+
+/* //////////////////////////////////////// */
+            /* footer SECTION */
+/* /////////////////////////////////////// */
+footer {
+    text-align: center;
+    font-size: 1.4rem;
 }
